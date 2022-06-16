@@ -54,4 +54,4 @@ const quote = document.querySelector("#quote span:first-child");
 const author = document.querySelector("#quote span:last-child");
 
 quote.innerText = todaysQuote.quote;
-author.innerText = todaysQuote.author;
+author.innerText = `-${todaysQuote.author}`;
